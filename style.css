@@ -13,12 +13,12 @@ html {
 }
 
 body {
-    font-family: helvetica, arial, sans-serif;
+    font-family: serif;
     background-color: #514f26;
     margin: 0;
     height: 100%;
     width: 100%;
-    font-weight: 200;
+    font-weight: 700;
     color: #000;
 }
 
