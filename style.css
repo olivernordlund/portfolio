@@ -35,5 +35,13 @@ a:hover {
 /* Grid */
 
 .wrapper {
-  display: flex;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
+  margin: 10px;
 }
