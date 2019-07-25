@@ -40,6 +40,10 @@ p.title {
   text-transform: uppercase;
 }
 
+p.title+p:nth-first-child {
+  text-indent: 1rem; 
+}
+
 a:hover {
     color: #fff;
 }
