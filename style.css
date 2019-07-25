@@ -57,8 +57,20 @@ a:hover {
 
 .col {
   flex-basis: 25%;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 200px;
   margin: 10px;
+}
+
+.col {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+@media(min-width: 768px) {
+
+  .col {
+    flex-basis: 25%;
+    margin: 10px;
+  }
+
+
 }
