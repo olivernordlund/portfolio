@@ -57,6 +57,8 @@ a:hover {
 
 .col {
   flex-basis: 25%;
-  width:25%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
   margin: 10px;
 }
