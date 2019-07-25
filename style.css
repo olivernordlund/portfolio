@@ -34,44 +34,8 @@ a:hover {
     color: #fff;
 }
 
-p.lower {
-
-        text-transform:lowercase;
-
-}
-
-
 /* Grid */
 
 .wrapper {
   display: flex;
 }
-
-@keyframes changeNumber {
-    0% {
-        content: url(numbers/one.svg);
-    }
-    20% {
-        content: url(numbers/two.svg);
-    }
-    40% {
-        content: url(numbers/three.svg);
-    }
-    60% {
-        content: url(numbers/four.svg);
-    }
-    80% {
-        content: url(numbers/five.svg);
-    }
-    100% {
-        content: url(numbers/six.svg);
-    }
-}
-
-.element:after {
-    transform: rotate(90deg);
-    width:16%;
-    animation: changeNumber 5s infinite alternate;
-    display: block;
-    content: url(numbers/one.svg);
-  }
