@@ -36,7 +36,8 @@ a {
 }
 
 p {
-  font-size: 1.15rem;
+  font-size: 1rem;
+  line-height: 1.1;
 }
 
 p.title {
@@ -56,7 +57,7 @@ a:hover {
 .wrapper {
   display:flex;
   flex-wrap: wrap;
-  padding:1rem;
+  padding: .5rem;
 }
 
 .col {
