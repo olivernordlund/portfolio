@@ -40,12 +40,16 @@ p {
   line-height: 1.1;
 }
 
-p.title {
-  text-transform: uppercase;
+p+p {
+  text-indent: 2rem;
 }
 
-p.title+p {
-  text-indent: 2rem;
+p+p+p {
+  text-indent: 4rem;
+}
+
+p+p+p+p {
+  text-indent: 6rem;
 }
 
 a:hover {
