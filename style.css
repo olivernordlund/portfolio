@@ -12,8 +12,9 @@ html {
 
 body {
     font-family: 'Old Standard TT', serif;
-    font-weight: 700;
-    background-color: rgb(240,255,100);
+    font-weight: normal;
+    /*background-color: rgb(240,255,100);*/
+    background-color: whitesmoke;
     height: 100%;
     width: 100%;
 }
