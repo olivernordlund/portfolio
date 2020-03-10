@@ -19,10 +19,7 @@ html {
 }
 
 html {
-  font-variant-numeric: slashed-zero;
-  -moz-font-feature-settings: 'zero';
-  -webkit-font-feature-settings: 'zero';
-  font-feature-settings: 'zero' on;
+
 }
 
 body {
@@ -40,8 +37,12 @@ a {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 1.1;
+  font-variant-numeric: slashed-zero;
+  -moz-font-feature-settings: 'zero';
+  -webkit-font-feature-settings: 'zero';
+  font-feature-settings: 'zero' on;
 }
 
 p+p {
