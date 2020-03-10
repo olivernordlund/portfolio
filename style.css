@@ -12,10 +12,6 @@ html {
 }
 
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
 
 /*
  Neue Haas Grotesk� W01 Text 75 Bold
@@ -34,7 +30,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 body {
-    font-family: 'NHaasGroteskTXW01-75Bd', sans-serif;
+    font-family: 'Inter', 'NHaasGroteskTXW01-75Bd', sans-serif;
     font-weight: normal;
     /*background-color: rgb(240,255,100);*/
     background-color: whitesmoke;
