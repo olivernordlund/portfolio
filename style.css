@@ -108,3 +108,54 @@ a:hover {
 
 
 }
+
+
+/* Timestamp */
+
+#clock {
+  font-family: 'american typewriter', 'nimbus_mono';
+}
+
+.colon:before {
+  content: ":";
+}
+
+/* Dot animation */
+
+.dot {
+  background-color: #fff;
+  height: .7em;
+  width: .5em;
+  display: block;
+  margin-top: 5px;
+}
+
+.flash {
+  color: #fff;
+  -webkit-animation: flash steps(1) 1s infinite;
+  animation: flash steps(1) 1s infinite;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
