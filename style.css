@@ -110,7 +110,9 @@ p+p+p+p {
 
 /* Timestamp */
 
-#clock {
+#clock::after {
+  content: 'CET';
+  margin-left: 1rem;
 }
 
 .colon:before {
@@ -129,7 +131,7 @@ p+p+p+p {
 }
 
 .flash {
-  color: #fff;
+  color: #000;
   -webkit-animation: flash steps(1) 1s infinite;
   animation: flash steps(1) 1s infinite;
 }
