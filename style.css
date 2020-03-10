@@ -20,6 +20,29 @@ html {
 	src:url("fonts/8d290bc2-1f22-40ea-be12-7000a5406aff.eot?#iefix") format("eot"),url("fonts/d13fb250-6b64-4d97-85df-51fc6625a891.woff2") format("woff2"),url("fonts/60fa2ce6-c35e-4203-9bbf-25dd128daec5.woff") format("woff"),url("fonts/dda121ff-e230-440f-83fb-40aefbd6e09a.ttf") format("truetype"),url("fonts/c98782d3-8599-4314-b717-118a629a3aa4.svg#c98782d3-8599-4314-b717-118a629a3aa4") format("svg");
 	}
 
+  @font-face {
+  font-family: "Rotis";
+  src: url("fonts/Rotis-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rotis";
+  src: url("fonts/Rotis-bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VGA";
+  src: url("fonts/PxPlus_VGA_SquarePx.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
 
 body {
     font-family: 'NHaasGroteskTXW01-75Bd', 'Old Standard TT', serif;
