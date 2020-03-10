@@ -43,6 +43,12 @@ body {
     background-color: whitesmoke;
     height: 100%;
     width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-variant-numeric: slashed-zero;
+    -moz-font-feature-settings: 'zero';
+    -webkit-font-feature-settings: 'zero';
+    font-feature-settings: 'zero' on;
 }
 
 a {
@@ -56,12 +62,7 @@ a:hover {
 }
 
 p {
-  font-size: 1.2rem;
-  line-height: 1.1;
-  font-variant-numeric: slashed-zero;
-  -moz-font-feature-settings: 'zero';
-  -webkit-font-feature-settings: 'zero';
-  font-feature-settings: 'zero' on;
+
 }
 
 p+p {
