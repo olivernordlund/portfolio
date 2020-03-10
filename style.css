@@ -118,7 +118,7 @@ a:hover {
 /* Dot animation */
 
 .dot {
-  background-color: #fff;
+  background-color: #000;
   height: .7em;
   width: .5em;
   display: block;
