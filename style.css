@@ -27,6 +27,13 @@ html {
   font-style: normal;
 }
 
+html {
+  font-variant-numeric: slashed-zero;
+  -moz-font-feature-settings: 'zero';
+  -webkit-font-feature-settings: 'zero';
+  font-feature-settings: 'zero' on;      
+}
+
 body {
     font-family: 'Inter', 'NHaasGroteskTXW01-75Bd', sans-serif;
     font-weight: normal;
