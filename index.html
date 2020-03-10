@@ -35,7 +35,7 @@
         var m = today.getMinutes();
         m = checkTime(m);
         document.getElementById('clock').innerHTML =
-        h + '<span class="flash">:</span>' + m;
+        h + '<span>:</span>' + m;
         var t = setTimeout(startTime, 500);
     }
     function checkTime(i) {

@@ -112,7 +112,7 @@ p+p+p+p {
 
 #clock::after {
   content: 'CET';
-  margin-left: 1rem;
+  margin-left: .3rem;
 }
 
 .colon:before {
