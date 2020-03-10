@@ -38,17 +38,13 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     /*background-color: rgb(240,255,100);*/
     background-color: whitesmoke;
     height: 100%;
     width: 100%;
     font-size: 1.2rem;
     line-height: 1.1;
-    font-variant-numeric: slashed-zero;
-    -moz-font-feature-settings: 'zero';
-    -webkit-font-feature-settings: 'zero';
-    font-feature-settings: 'zero' on;
 }
 
 a {
