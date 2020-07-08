@@ -94,7 +94,7 @@ p+p+p+p {
 .wrapper {
   display:flex;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: flex-start;
   padding: .5rem;
 }
 
