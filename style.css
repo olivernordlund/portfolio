@@ -49,11 +49,17 @@ body {
 
 a {
     text-decoration:none;
-    color:#000;
+    color:inherit;
 }
 
 a:hover {
   color: #000;
+}
+
+img {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
 }
 
 p {
@@ -77,6 +83,7 @@ p+p+p+p {
 .wrapper {
   display:flex;
   flex-wrap: wrap;
+  align-content: flex-end;
   padding: .5rem;
 }
 
