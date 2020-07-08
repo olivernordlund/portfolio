@@ -40,7 +40,9 @@ body {
     font-family: 'Helvetica Neue', 'Inter', sans-serif;
     font-weight: 600;
     background-color: whitesmoke;
-    color:#a7a8aa;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px pink;
+    /*color:#a7a8aa;*/
     height: 100%;
     width: 100%;
     font-size: 1.2rem;
@@ -52,8 +54,12 @@ a {
     color:inherit;
 }
 
+strong {
+  color: pink;
+}
+
 a:hover {
-  color: #000;
+  color: pink;
 }
 
 img {
@@ -83,7 +89,7 @@ p+p+p+p {
 .wrapper {
   display:flex;
   flex-wrap: wrap;
-  align-content: flex-end;
+  align-content: center;
   padding: .5rem;
 }
 
