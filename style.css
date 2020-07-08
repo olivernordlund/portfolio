@@ -37,10 +37,10 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'VGA', 'Inter', sans-serif;
     font-weight: 600;
-    /*background-color: rgb(240,255,100);*/
     background-color: whitesmoke;
+    color:#a7a8aa;
     height: 100%;
     width: 100%;
     font-size: 1.2rem;
