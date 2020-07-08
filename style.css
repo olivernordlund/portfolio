@@ -58,6 +58,11 @@ strong {
   color: pink;
 }
 
+::selection {
+  color: red;
+  background: transparent;
+}
+
 a:hover {
   color: pink;
 }
