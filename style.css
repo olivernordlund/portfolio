@@ -37,8 +37,8 @@ html {
 }
 
 body {
-    font-family: 'Helvetica Neue', 'Inter', sans-serif;
-    font-weight: 600;
+    font-family: 'Arial Narrow', 'Inter', sans-serif;
+    font-weight: 400;
     background-color: whitesmoke;
     color: whitesmoke;
     text-shadow: 1px 1px 1px pink;
